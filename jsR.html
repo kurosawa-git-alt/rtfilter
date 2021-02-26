@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="jsR.js" charset="utf-8"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="jsR.css">
+        <title>リアルタイムフィルター</title>
+    </head>
+
+    <body>
+        <h3>リアルタイムフィルター</h3>
+        <div class="search">
+            <div class="search-text">
+                <input type="text" id="search">
+            </div>
+        </div>
+        <div class="contents">
+            <div class="content-one" data-keyword='{"車","くるま","kuruma"}'>
+                <div class="content-img">
+                    <img class="content-pic" src="https://cdn.pixabay.com/photo/2017/05/23/20/07/mustang-2338358_1280.jpg">
+                </div>
+                <div class="content-text">
+                    <p class="key-word">キーワード</p>
+                    <p class="name">車 くるま kuruma</p>
+                </div>
+            </div>
+            <div class="content-one" data-keyword='{"青空","あおぞら","aozora"}'>
+                <div class="content-img">
+                    <img class="content-pic" src="https://cdn.pixabay.com/photo/2015/05/08/18/51/blue-sky-758608_1280.jpg">
+                </div>
+                <div class="content-text">
+                    <p class="key-word">キーワード</p>
+                    <p class="name">青空 あおぞら aozora</p>
+                </div>
+            </div>
+            <div class="content-one" data-keyword='{"朝顔","あさがお","asagao"}'>
+                <div class="content-img">
+                    <img class="content-pic" src="https://cdn.pixabay.com/photo/2017/08/26/21/59/morning-glory-2684455_1280.jpg">
+                </div>
+                <div class="content-text">
+                    <p class="key-word">キーワード</p>
+                    <p class="name">朝顔 あさがお asagao</p>
+                </div>
+            </div>
+            <div class="content-one" data-keyword='{"馬","うま","uma"}'>
+                <div class="content-img">
+                    <img class="content-pic" src="https://cdn.pixabay.com/photo/2017/02/13/20/21/horse-2063672_1280.jpg">
+                </div>
+                <div class="content-text">
+                    <p class="key-word">キーワード</p>
+                    <p class="name">馬 うま uma</p>
+                </div>
+            </div>
+        </div>
+        
+        <script src="jsR.js"></script>
+</html>
